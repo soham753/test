@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Inquiry Example</title>
+
+  <!-- 👇 Open Graph tags (these make WhatsApp show the image preview) -->
+  <meta property="og:title" content="Smart Watch Model X">
+  <meta property="og:description" content="Premium Smart Watch with health tracking and long battery life.">
+  <meta property="og:image" content="https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg">
+  <meta property="og:url" content="https://yourwebsite.com/product/smartwatch">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .product {
+      max-width: 300px;
+      margin: 0 auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product">
+    <img src="https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg" alt="Smart Watch">
+    <h3>Smart Watch Model X</h3>
+    <p>₹3,999 | Free Shipping</p>
+
+    <!-- 👇 WhatsApp button -->
+    <a 
+      class="whatsapp-btn"
+      href="https://wa.me/919876543210?text=Hi%2C%20I'm%20interested%20in%20Smart%20Watch%20Model%20X.%20Here%20is%20the%20link%3A%20https%3A%2F%2Fyourwebsite.com%2Fproduct%2Fsmartwatch" 
+      target="_blank">
+      💬 Send Inquiry on WhatsApp
+    </a>
+  </div>
+
+</body>
+</html>
